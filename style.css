@@ -1,4 +1,62 @@
-html, body {
+html, body 
+{
     margin: 0;
     padding: 0;
+}
+
+
+.genres
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+  
+.flex-item 
+{
+    background-color: #000;
+    width: 200px;
+    min-height: 100px;
+    text-align: center;
+}
+  
+.action 
+{
+    background-color: #1E90FF;
+}
+  
+.thriller 
+{
+    background-color: #BEB2B2;
+}
+  
+.comedy
+{
+    background-color: #FFD61E;
+}
+  
+.horror 
+{
+    background-color: #000;
+    color: white;
+}
+  
+.drama 
+{
+    background-color: #A9A9A9;
+}
+  
+.romance 
+{
+    background-color: #FF0000;
+    flex-grow: 3;
+    
+}
+  
+.comedy
+{
+    flex-grow: 6;
+    
 }

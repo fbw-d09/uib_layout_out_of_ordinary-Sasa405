@@ -5,7 +5,7 @@ html, body
 }
 
 
-.flex-container 
+.genres
 {
     display: flex;
     flex-wrap: wrap;
